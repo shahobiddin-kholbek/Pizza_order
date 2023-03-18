@@ -1,0 +1,93 @@
+.size_tab_border {
+  border: 2px solid gray;
+  border-style: dashed;
+  border-radius: 50%;
+  padding: 20px;
+  height: 320px;
+  width: 320px;
+}
+.infoModalBtn {
+  border: none;
+  background-color: transparent;
+}
+.size_tab_border_in {
+  border: 2px solid rgb(199, 177, 177);
+  border-style: dashed;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.infoIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 370px;
+}
+
+.infoModalBtn{
+  cursor: pointer;
+}
+.ingredientsBtn > img {
+  width: 90px;
+}
+
+.ingredientsBtn {
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  width: 115px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.ingredientsBtnDiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+}
+
+.ingredientsCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.clickedIngredientsIcon {
+  position: absolute;
+  right: 0;
+  top: 4px;
+}
+
+.titleOfModal {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  width: 300px;
+}
+
+.popper {
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
